@@ -1,0 +1,76 @@
+{
+  "_from": "@sencha/cmd@^7.2.0",
+  "_id": "@sencha/cmd@7.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-6kPx80QyKvrPWQfxctGWIkc9zgK2SwSknY4WFc196g1kCWJ4Ld1XcTOjLD4VDlpegYpXKjgVn45OJ7tHX+CYDQ==",
+  "_location": "/@sencha/cmd",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sencha/cmd@^7.2.0",
+    "name": "@sencha/cmd",
+    "escapedName": "@sencha%2fcmd",
+    "scope": "@sencha",
+    "rawSpec": "^7.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^7.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://npm.sencha.com/@sencha%2fcmd/-/cmd-7.2.0.tgz",
+  "_shasum": "5c918d1c13b6e7387199dd20b17ad57a4c8765c1",
+  "_spec": "@sencha/cmd@^7.2.0",
+  "_where": "/Volumes/BOOTCAMP/_git/sencha/ext-generate/steps/aTheme",
+  "author": {
+    "name": "Sencha, Inc."
+  },
+  "bin": {
+    "sencha": "bin/sencha"
+  },
+  "bugs": {
+    "url": "https://www.sencha.com/forum/forumdisplay.php?8-Sencha-Cmd"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "which": "^1.2.12"
+  },
+  "deprecated": false,
+  "description": "Productivity and performance optimization tool for building applications with Sencha Ext JS and Sencha Touch.",
+  "files": [
+    ".npmignore",
+    "LICENSE.md",
+    "README.md",
+    "dist/",
+    "dist/js/node_modules/fashion/dist/",
+    "bin/sencha",
+    "platform-install.js",
+    "index.js",
+    "dist",
+    "dist/js/node_modules/fashion/dist"
+  ],
+  "homepage": "https://www.sencha.com/products/sencha-cmd/",
+  "keywords": [
+    "sencha",
+    "senchacmd",
+    "sencha-cmd",
+    "sencha command",
+    "extjs",
+    "ext js",
+    "ext-js",
+    "sencha touch",
+    "senchatouch",
+    "ext",
+    "touch",
+    "cmd",
+    "command",
+    "cli"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "name": "@sencha/cmd",
+  "scripts": {},
+  "version": "7.2.0",
+  "version_full": "7.2.0.56",
+  "platformPkg": "@sencha/cmd-macos"
+}

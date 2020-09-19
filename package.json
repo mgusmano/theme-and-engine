@@ -1,0 +1,36 @@
+{
+    "name": "theme-and-engine",
+    "version": "7.3.0",
+    "description": "theme-and-engine",
+    "main": "index.js",
+    "scripts": {
+      "modern": "node ./index.js modern",
+      "classic": "node ./index.js classic"
+    },
+    "dependencies": {
+      "mkdirp": "~1.0.4",
+      "uglify-js": "^3.10.4",
+      "fs-copy-file-sync": "~1.1.1",
+      "cross-spawn-with-kill": "^1.0.0",
+      "fs-extra": "~9.0.1",
+      "chalk": "^4.1.0",
+      "rimraf": "~3.0.2"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sencha"
+    },
+    "keywords": [
+        "webpack",
+        "webpack-plugin",
+        "EXT JS",
+        "Sencha"
+    ],
+    "author": "Sencha, Inc.",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sencha"
+    },
+    "homepage": "https://github.com/sencha"
+}
