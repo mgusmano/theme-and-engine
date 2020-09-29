@@ -53,7 +53,12 @@ async function go() {
   // console.log(`${chalk.green("Step 7:")} copy ${fromImages} to ${toImages}`)
   // fs.copySync(fromImages,toImages);
 
-  console.log(`${chalk.green("done")} output folder is ${outputFolder}`)
+
+  var toPackages = `./packages/ext-${toolkit}-runtime`
+  console.log(`${chalk.green("Step 7:")} copy ${outputFolder} to ${toPackages}`)
+  fs.copySync(outputFolder,toPackages);
+
+  console.log(`${chalk.green("done")} output package is at: ${toPackages}`)
 }
 
 async function _executeAsync (program, parms, outputPath, vars) {
